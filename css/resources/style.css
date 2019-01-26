@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    font-family: Verdana;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+header {
+    background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50544959_2252392685016959_9007845561419694080_o.jpg?_nc_cat=108&_nc_ht=scontent.farn2-1.fna&oh=c2d3e6433043005c07585eada9e6ba65&oe=5CB3E8F5");
+    height: 300px;
+    width: 1600px;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.header-nav {
+    display: flex;
+    padding: 8px;
+   
+       
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 320px;
+}
+
+.welcome-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+
+}
+
+.nav-line {
+    text-align: center;
+    width: 1200px;
+    font-size: 22px;
+    padding: 13px;
+    color: #e0dfdc;
+    background: #556677;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+   
+}
+
+
+
+.menu-box,
+.event-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    
+}
+
+/* .menu-img {
+    background-image: url("https://www.hospitalityandcateringnews.com/wp-content/uploads/2018/09/chinese-restaurant-group-with-four-michelin-stars-coming-to-london-1.jpg");
+    height: 450px;
+    width: 700px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+
+.food-pic {
+    height: 220px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+.food-pic.edamame {
+    background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50609365_2252926611630233_7275790705274912768_n.jpg?_nc_cat=111&_nc_ht=scontent.farn2-1.fna&oh=28de70033f5e090a8c31713e9bdeb4e2&oe=5CF6C84F");
+    
+}
+
+.food-pic.cucumber {
+    background-image: url("https://www.chinasichuanfood.com/wp-content/uploads/2016/06/smashed-cucumber-salad-320x320.jpg");
+}
+
+.upper-box {
+    display: flex;
+}
+
+.box {
+    box-shadow: 2px 2px 9px rgb(172, 184, 196);
+    font-size: 18px;
+    color: whitesmoke;
+    margin: 5px;
+    
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #131313;
+    letter-spacing: .15em;
+    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89;
+}
+
+.welcome-content span {
+    padding: 3px;
+    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474;
+    font-size: 18px;
+}
+
+a {
+    color: seashell;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 15px;
+
+}
+
+.pig {
+    height: 300px;
+}
+
+.info {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+}
+
+.pig-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.year-name {
+    text-align: center;
+}
