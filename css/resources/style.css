@@ -1,66 +1,93 @@
 body {
-    display: flex;
-    font-family: Verdana;
-    margin: auto;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+  display: flex;
+  font-family: "Indie Flower";
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 header {
-    background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50544959_2252392685016959_9007845561419694080_o.jpg?_nc_cat=108&_nc_ht=scontent.farn2-1.fna&oh=c2d3e6433043005c07585eada9e6ba65&oe=5CB3E8F5");
-    height: 300px;
-    width: 1600px;
-    background-position: center;
-    display: flex;
-    flex-direction: column-reverse;
-    position: fixed;
-    z-index: 1;
-    
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50544959_2252392685016959_9007845561419694080_o.jpg?_nc_cat=108&_nc_ht=scontent.farn2-1.fna&oh=c2d3e6433043005c07585eada9e6ba65&oe=5CB3E8F5");
+  height: 300px;
+  width: 1600px;
+  background-position: center;
+  display: flex;
+  flex-direction: column-reverse;
+  position: fixed;
+  z-index: 1;
 }
 
-.header-nav {
-    display: flex;
-    padding: 8px;
-   
-       
+.shrink {
+  height: 50px;
+  background: #9bb200;
+}
+
+.shrink .nav-bar {
+  justify-content: center;
+  box-shadow: inset 11px 5px 20px 0px rgb(172, 184, 196);
+  box-shadow: 11px 5px 20px 0px rgb(172, 184, 196);
+}
+
+.shrink a {
+  padding: 40px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left {
+  margin-left: 60px;
+}
+
+.nav-right {
+  margin-right: 38px;
+}
+
+a {
+  color: seashell;
+  font-weight: bold;
+  font-size: 28px;
+  padding: 30px;
 }
 
 .main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 320px;
+  font-size: 21px;
 }
 
 .welcome-box {
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-line {
-    text-align: center;
-    width: 1200px;
-    font-size: 22px;
-    padding: 13px;
-    color: #e0dfdc;
-    background: #556677;
-    letter-spacing: .1em;
-    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
-   
+  text-align: center;
+  width: 1200px;
+  font-size: 22px;
+  padding: 13px;
+  color: #e0dfdc;
+  background: #91a900;
+  letter-spacing: 0.1em;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+    0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222,
+    0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+    0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212,
+    0 22px 30px rgba(0, 0, 0, 0.9);
 }
 
-
-
 .menu-box,
-.event-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 15px;
-    
+.event-box,
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
 }
 
 /* .menu-img {
@@ -73,78 +100,180 @@ header {
     flex-direction: column;
 } */
 
-
 .food-pic {
-    height: 220px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: center;
+  height: 230px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 8%;
+  margin: 10px;
 }
 .food-pic.edamame {
-    background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50609365_2252926611630233_7275790705274912768_n.jpg?_nc_cat=111&_nc_ht=scontent.farn2-1.fna&oh=28de70033f5e090a8c31713e9bdeb4e2&oe=5CF6C84F");
-    
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50609365_2252926611630233_7275790705274912768_n.jpg?_nc_cat=111&_nc_ht=scontent.farn2-1.fna&oh=28de70033f5e090a8c31713e9bdeb4e2&oe=5CF6C84F");
 }
 
 .food-pic.cucumber {
-    background-image: url("https://www.chinasichuanfood.com/wp-content/uploads/2016/06/smashed-cucumber-salad-320x320.jpg");
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/51291850_2252943158295245_7318381520832430080_n.jpg?_nc_cat=103&_nc_ht=scontent.farn2-1.fna&oh=ccd104524bdb08473aed2691ee319d1f&oe=5CF47F35");
+}
+
+.food-pic.toufu {
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/51442613_2252973438292217_6293979078538035200_n.jpg?_nc_cat=108&_nc_ht=scontent.farn2-1.fna&oh=f84d9fdeca5ff667a82b20fa7fa369ad&oe=5CB76990");
+}
+
+.food-pic.tomatoes-eggs {
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50679397_2252984684957759_3020136344446828544_n.jpg?_nc_cat=110&_nc_ht=scontent.farn2-1.fna&oh=6a7cf25767b36752d980357a36a1eb27&oe=5CFF3DEA");
+}
+
+.food-pic.chicken-mushroom {
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50818612_2252994324956795_7331716767221284864_n.jpg?_nc_cat=105&_nc_ht=scontent.farn2-1.fna&oh=6e19855da9a94091c19561c995ff059c&oe=5CFACE32");
+}
+
+.food-pic.cola-wings {
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50658151_2252998201623074_6670307780915625984_n.jpg?_nc_cat=104&_nc_ht=scontent.farn2-1.fna&oh=a8015f2aaae35d011ffd156b4b360a26&oe=5CFF2B9B");
+}
+
+.food-pic.potato-slices {
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50940347_2253001411622753_7402161485075447808_n.jpg?_nc_cat=101&_nc_ht=scontent.farn2-1.fna&oh=96fd320c58c66b6f651a354eefad1cae&oe=5D003C3F");
+}
+
+.food-pic.ants-tree {
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50824443_2253005648288996_5926192920083300352_n.jpg?_nc_cat=104&_nc_ht=scontent.farn2-1.fna&oh=df782497ca02dd8b5823ae5595d3912a&oe=5CFA56C7");
+}
+
+.food-pic.cumin-beef {
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/51018137_2253016891621205_1593020107573952512_n.jpg?_nc_cat=104&_nc_ht=scontent.farn2-1.fna&oh=43b6e3527564ee6e55ef0d89991dc1b4&oe=5CB3806B");
+}
+
+.food-pic.oxtail-soup {
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50605849_2253043164951911_4703517839464595456_n.jpg?_nc_cat=104&_nc_ht=scontent.farn2-1.fna&oh=8d5d50a4d17a6fb731b8f86f8ca472ab&oe=5D002138");
+}
+
+.food-pic.fried-rice {
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/50713277_2253048564951371_7237092809419784192_n.jpg?_nc_cat=104&_nc_ht=scontent.farn2-1.fna&oh=63fd6e863d96f1073b80a4f651882200&oe=5CB40BF9");
+}
+
+.food-pic.event-name {
+  background-image: url("https://scontent.farn2-1.fna.fbcdn.net/v/t1.0-9/51404749_2253072831615611_1543742435958456320_n.jpg?_nc_cat=100&_nc_ht=scontent.farn2-1.fna&oh=287b5bdab43cdbfbf859553af38bd0b3&oe=5CFF4B24");
 }
 
 .upper-box {
-    display: flex;
+  display: flex;
+  justify-content: center;
+}
+
+.lower-box {
+  display: flex;
+}
+
+.left-box,
+.right-box,
+.middle-box {
+  display: flex;
+  flex-direction: column;
 }
 
 .box {
-    box-shadow: 2px 2px 9px rgb(172, 184, 196);
-    font-size: 18px;
-    color: whitesmoke;
-    margin: 5px;
-    
+  box-shadow: 2px 2px 9px rgb(172, 184, 196);
+  font-size: 18px;
+  color: #181818;
+  margin: 5px;
+  background: #9bb20087;
 }
 
+.box.box-1 {
+  background: #ac2705d4;
+}
+.food-pic.event-name {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
 .welcome-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #131313;
-    letter-spacing: .15em;
-    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #131313;
+  letter-spacing: 0.15em;
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474,
+    -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d,
+    -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89;
 }
 
 .welcome-content span {
-    padding: 3px;
-    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474;
-    font-size: 18px;
-}
-
-a {
-    color: seashell;
-    font-weight: bold;
-    font-size: 21px;
-    padding: 15px;
-
+  padding: 3px;
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474;
+  font-size: 20px;
 }
 
 .pig {
-    height: 300px;
+  height: 300px;
 }
 
 .info {
-    display: flex;
-    width: 1200px;
-    justify-content: center;
+  display: flex;
+  width: 1200px;
+  justify-content: center;
 }
 
 .pig-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 55%;
-    text-align: justify;
-    margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  text-align: justify;
+  margin-left: 50px;
+  height: 300px;
 }
 
 .year-name {
-    text-align: center;
+  text-align: center;
+}
+
+.year-description {
+  font-family: "Boogaloo";
+}
+
+.catering {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.catering-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+}
+
+.location-info {
+  margin-left: 50px;
+}
+.contact-box {
+  display: flex;
+}
+
+.contact-box,
+.location-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+footer {
+  background: #9bb200;
+  text-align: center;
+  width: 1600px;
+  font-weight: 700;
+  position: fixed;
+  bottom: 0;
 }
