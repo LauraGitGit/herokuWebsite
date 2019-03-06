@@ -1,4 +1,3 @@
-Welcome to Laura's website!
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,8 +5,7 @@ Welcome to Laura's website!
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Laura</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">  
 </head>
 <body>
     <h1>Welcome to Laura's website!</h1>
