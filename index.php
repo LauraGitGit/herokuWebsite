@@ -1,1 +1,1 @@
-<?php include_once("home.html"); ?>
+Welcome to Laura's website!
